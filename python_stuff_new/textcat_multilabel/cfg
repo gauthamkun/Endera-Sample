@@ -1,0 +1,18 @@
+{
+  "labels":[
+    "DRUG",
+    "ALCOHOL",
+    "VIOLENCE",
+    "SEX",
+    "THEFT",
+    "FAMILY",
+    "MINOR",
+    "VEHICULAR",
+    "KIDNAP",
+    "MISCONDUCT",
+    "TRESSPASS",
+    "FRAUD",
+    "WEAPON"
+  ],
+  "threshold":0.5
+}
