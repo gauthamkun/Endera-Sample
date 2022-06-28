@@ -1,0 +1,942 @@
+{
+  "classes": [
+    "SEX",
+    "ALCHOHOL  ",
+    "VIOLENCE",
+    "DRUG",
+    "THEFT",
+    "MINOR",
+    "FAMILY",
+    "VEHICULAR",
+    "KIDNAP",
+    "OBSTRUCTION",
+    "FRAUD",
+    "WEAPON",
+    "FINANACIAL",
+    "TRESPASS"
+  ],
+  "annotations": [
+    [
+      "SANITARY NUISANCE\r",
+      {
+        "entities": [
+          [
+            0,
+            17,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSS CS PG 1 \\u0026gt;=1G\\u0026lt;4G\r",
+      {
+        "entities": [
+          [
+            0,
+            36,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "ALL CHARGES ASSAULT\r",
+      {
+        "entities": [
+          [
+            0,
+            19,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "COMMUNICATING THREATS\r",
+      {
+        "entities": [
+          [
+            0,
+            21,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "ASSAULT-SEC DEGREE\r",
+      {
+        "entities": [
+          [
+            0,
+            18,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "COMMUNICATING THREATS\r",
+      {
+        "entities": [
+          [
+            0,
+            21,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "BACK UP VEHICLE IMPROPERLY\r",
+      {
+        "entities": [
+          [
+            0,
+            26,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "RESTRICTIONS ON ALCOHOLIC BEVERAGES\r",
+      {
+        "entities": [
+          [
+            0,
+            35,
+            "ALCHOHOL  "
+          ]
+        ]
+      }
+    ],
+    [
+      "DUI PER SE\r",
+      {
+        "entities": [
+          [
+            0,
+            10,
+            "ALCHOHOL  "
+          ]
+        ]
+      }
+    ],
+    [
+      "BURGLARY II\r",
+      {
+        "entities": [
+          [
+            0,
+            11,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "DR.U.REV./SUSP.\r",
+      {
+        "entities": [
+          [
+            0,
+            15,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESSION OF TWO OUNCES OF MARIJUANA OR LESS\r",
+      {
+        "entities": [
+          [
+            0,
+            45,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "OBSTRUCT HIGHWAY PASSAGEWAY\r",
+      {
+        "entities": [
+          [
+            0,
+            27,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "DRUG ABUSE\r",
+      {
+        "entities": [
+          [
+            0,
+            10,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "CONCEALING MERCHANDISE\r",
+      {
+        "entities": [
+          [
+            0,
+            22,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "\"CRUELTY TO CHILDREN IN THE THIRD DEGREE,\"\r",
+      {
+        "entities": [
+          [
+            0,
+            42,
+            "MINOR"
+          ]
+        ]
+      }
+    ],
+    [
+      "ASSAULT CAUSES BODILY INJURY FAMILY MEMBER\r",
+      {
+        "entities": [
+          [
+            0,
+            42,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "DISREGARD OF SAFETY - PRIV PROP 1ST\r",
+      {
+        "entities": [
+          [
+            0,
+            35,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "PROBATION VIOLATION\r",
+      {
+        "entities": [
+          [
+            0,
+            19,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "KNOWINGLY CONCEALING STOLEN PROPERTY (RCSP)\r",
+      {
+        "entities": [
+          [
+            0,
+            9,
+            "THEFT"
+          ],
+          [
+            10,
+            43,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "NARCOTIC EQUIP POSSESS-AND OR USE\r",
+      {
+        "entities": [
+          [
+            0,
+            33,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSS OF CONTROLLED SUBSTANCE\r",
+      {
+        "entities": [
+          [
+            0,
+            28,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "BATTERY-TOUCH OR STRIKE\r",
+      {
+        "entities": [
+          [
+            0,
+            23,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "Fraud/Theft\r",
+      {
+        "entities": [
+          [
+            0,
+            11,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "DISORDER CONDUCT HAZARDOUS/PHYSI OFF\r",
+      {
+        "entities": [
+          [
+            0,
+            36,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "HARASSMENT - SUBJECT OTHER TO PHYSICAL CONTACT\r",
+      {
+        "entities": [
+          [
+            0,
+            46,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESSION OF CONTROLLED SUBSTANCES\r",
+      {
+        "entities": [
+          [
+            0,
+            35,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "Drugs\r",
+      {
+        "entities": [
+          [
+            0,
+            5,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "MURDER II\r",
+      {
+        "entities": [
+          [
+            0,
+            9,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "DRUG VIOLATIONS\r",
+      {
+        "entities": [
+          [
+            0,
+            15,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "ASSAULT/AGG=SIMPLE ASSLT ON LAW ENFOFF/3\r",
+      {
+        "entities": [
+          [
+            0,
+            40,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESSION OF CONTROLLED SUBSTANCE\r",
+      {
+        "entities": [
+          [
+            0,
+            34,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "WARRANT/BENCH WARRANT\r",
+      {
+        "entities": [
+          [
+            0,
+            21,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "FAIL TO SECURE PASSEN UNDER 16\r",
+      {
+        "entities": [
+          [
+            0,
+            30,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "THEFT\r",
+      {
+        "entities": [
+          [
+            0,
+            5,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "FLEEING OR ATTEMPTING TO ELUDE OFFICER\r",
+      {
+        "entities": [
+          [
+            0,
+            38,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSS/DRUG PARAPHERNALIA\r",
+      {
+        "entities": [
+          [
+            0,
+            23,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "FRAUDULENT DOCUMENT\r",
+      {
+        "entities": [
+          [
+            0,
+            19,
+            "FRAUD"
+          ]
+        ]
+      }
+    ],
+    [
+      "CONTROLLED SUBSTANCE-DELIVERY/MANUFACTURE MARIJUANA\r",
+      {
+        "entities": [
+          [
+            0,
+            51,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "Violence\r",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "FEL ASSAULT\r",
+      {
+        "entities": [
+          [
+            0,
+            11,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "FELON POS.FIREARM/CON.WEAPON\r",
+      {
+        "entities": [
+          [
+            0,
+            28,
+            "WEAPON"
+          ]
+        ]
+      }
+    ],
+    [
+      "CRIMINAL TRESPASS TO LAND\r",
+      {
+        "entities": [
+          [
+            0,
+            25,
+            "TRESPASS"
+          ]
+        ]
+      }
+    ],
+    [
+      "INDECENT EXPOSURE\r",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "MINOR"
+          ],
+          [
+            9,
+            17,
+            "MINOR"
+          ]
+        ]
+      }
+    ],
+    [
+      "THEFT BY UNLAW TAKING-MOVABLE PROP\r",
+      {
+        "entities": [
+          [
+            0,
+            34,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "FORGERY IN THE THIRD DEGREE\r",
+      {
+        "entities": [
+          [
+            0,
+            27,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "THEFT CON INTENT PERSON \\u0026amp;lt;$500\r",
+      {
+        "entities": [
+          [
+            0,
+            41,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "RESIDENTIAL BURGLARY\r",
+      {
+        "entities": [
+          [
+            0,
+            20,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "4TH DEGREE - CRIMINAL POSSESSION OF A WEAPON\r",
+      {
+        "entities": [
+          [
+            0,
+            44,
+            "WEAPON"
+          ]
+        ]
+      }
+    ],
+    [
+      "\"THEFT\\u0026lt;$2,500 2/MORE PREV CONV\"\r",
+      {
+        "entities": [
+          [
+            1,
+            39,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "CARRYING CONCEALED FIREARM\r",
+      {
+        "entities": [
+          [
+            0,
+            26,
+            "WEAPON"
+          ]
+        ]
+      }
+    ],
+    [
+      "HARASSMENT - SUBJECT OTHER TO PHYSICAL CONTACT\r",
+      {
+        "entities": [
+          [
+            0,
+            46,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "USE/POSS OF DRUG PARAPH\r",
+      {
+        "entities": [
+          [
+            0,
+            23,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "ASSAULT\r",
+      {
+        "entities": [
+          [
+            0,
+            7,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESS CANNABIS\r",
+      {
+        "entities": [
+          [
+            0,
+            16,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "FS/CRIMINAL MISCHIEF\r",
+      {
+        "entities": [
+          [
+            0,
+            20,
+            "MINOR"
+          ]
+        ]
+      }
+    ],
+    [
+      "32234(10)(A) - 600 OPER WHILE DL SUSPEND/CANCEL/REVOKE - NO PRIOR FORC FEL\r",
+      {
+        "entities": [
+          [
+            0,
+            74,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "INT POSS CONTR SUBST BY PER NOT REG\r",
+      {
+        "entities": [
+          [
+            0,
+            35,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "TRAFFICKING IN COCAINE\r",
+      {
+        "entities": [
+          [
+            0,
+            22,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "THEFT BY UNLAW TAKING-MOVABLE PROP\r",
+      {
+        "entities": [
+          [
+            0,
+            34,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "FRAUD USE CREDIT/DEBIT CARD\r",
+      {
+        "entities": [
+          [
+            0,
+            27,
+            "FRAUD"
+          ]
+        ]
+      }
+    ],
+    [
+      "ROBBERY - 1ST DEGREE\r",
+      {
+        "entities": [
+          [
+            0,
+            20,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "Violence\r",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "BATTERY\r",
+      {
+        "entities": [
+          [
+            0,
+            7,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "DRIVING UNDER FINANCIAL RESPONSIBILITY SUSPENSION\r",
+      {
+        "entities": [
+          [
+            0,
+            49,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "4TH DEGREE - GRAND LARCENY\r",
+      {
+        "entities": [
+          [
+            0,
+            26,
+            "THEFT"
+          ]
+        ]
+      }
+    ],
+    [
+      "DISORDERLY CONDUCT - CITY FORT DODGE\r",
+      {
+        "entities": [
+          [
+            0,
+            36,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "\"DRUGS - 5TH DEGREE - POSSESS SCHEDULE 1,2,3,4 - NOT SMALL AMOUNT MARIJUANA\"\r",
+      {
+        "entities": [
+          [
+            1,
+            76,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESSION OF ALCOHOLIC BEVERAGE BY PERSON UNDER 21 YOA\r",
+      {
+        "entities": [
+          [
+            0,
+            55,
+            "ALCHOHOL  "
+          ]
+        ]
+      }
+    ],
+    [
+      "\"EMBEZZLE-AGENT/TRUSTEE $1,000 OR MORE BUT LESS THAN $20,000\"\r",
+      {
+        "entities": [
+          [
+            1,
+            61,
+            "FINANACIAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "85/70 SP\r",
+      {
+        "entities": [
+          [
+            0,
+            8,
+            "VEHICULAR"
+          ]
+        ]
+      }
+    ],
+    [
+      "POSSESSION OF COCAINE\r",
+      {
+        "entities": [
+          [
+            0,
+            21,
+            "DRUG"
+          ]
+        ]
+      }
+    ],
+    [
+      "\"ASSAULT 4TH DEGREE/DV, Offense Category Description: ASSAULT 4TH DEGREE/DV\"\r",
+      {
+        "entities": [
+          [
+            1,
+            76,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "DISORDERLY CONDUCT\r",
+      {
+        "entities": [
+          [
+            0,
+            18,
+            "OBSTRUCTION"
+          ]
+        ]
+      }
+    ],
+    [
+      "3RD DEGREE - ASSAULT\r",
+      {
+        "entities": [
+          [
+            0,
+            20,
+            "VIOLENCE"
+          ]
+        ]
+      }
+    ],
+    [
+      "FALSE IMPRISONMENT\r",
+      {
+        "entities": [
+          [
+            0,
+            18,
+            "FRAUD"
+          ]
+        ]
+      }
+    ]
+  ]
+}
