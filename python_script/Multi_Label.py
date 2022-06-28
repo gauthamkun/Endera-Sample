@@ -10,7 +10,7 @@ from spacy.util import minibatch, compounding
 
 # used of converting the json data into dataframe
 def preprocess_data():
-    with open(r"C:\Users\Gkrishna\Downloads\Gautham_KY_1-2030.json") as json_data:
+    with open(r"C:\Users\mandr\Desktop\Internship\Week 1\0-1000\andrew-ky_offense_vocabulary-0_1000.json") as json_data:
         d = json.load(json_data)
     df = pd.DataFrame(columns=['annotations', 'label'])  # Create a dataframe with headers annotations and label
     i = 0
@@ -44,7 +44,7 @@ def preprocess_data():
 # for creating pipeline and model
 def create_pipeline(d):
     print("Creating pipeline")
-    nlp = spacy.load("en_core_web_md")  # using preexisting models
+    nlp = spacy.load("en_core_web_sm")  # using preexisting models
     config = {
         "threshold": 0.5,  # Cutoff to consider a prediction “positive”, relevant when printing accuracy results
         "model": DEFAULT_MULTI_TEXTCAT_MODEL,  # This model needs to be used for anything for more than 2 label
@@ -91,7 +91,7 @@ def training(textcat, train, nlp):
                     print(nlp.update([example], sgd=optimizer))
     # save the trained model so that it doesnt have to be executed for input.
     with nlp.use_params(optimizer.averages):
-        nlp.to_disk("C:/Users/Gkrishna/OneDrive - Endera Systems/Documents/Python Scripts/python_stuff_new")
+        nlp.to_disk("C:/Users/mandr/Desktop/Internship/Python Scripts/python_stuff_new")
     print("Saved model")
 
 

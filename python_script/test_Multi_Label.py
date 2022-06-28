@@ -7,7 +7,7 @@ import json
 
 
 class Test(TestCase):
-    with open(r"C:\Users\Gkrishna\Downloads\Gautham_KY_1-2030.json") as json_data:
+    with open(r"C:\Users\mandr\Desktop\Internship\Week 1\0-1000\andrew-ky_offense_vocabulary-0_1000.json") as json_data:
         d = json.load(json_data)
     df = pd.DataFrame(columns=['annotations', 'label'])
     i = 0
