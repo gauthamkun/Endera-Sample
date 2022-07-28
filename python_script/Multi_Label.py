@@ -11,6 +11,9 @@ from spacy.util import minibatch, compounding
 # used of converting the json data into dataframe
 def preprocess_data():
     train = pd.read_csv('Data.csv')
+    # Removes the following tags
+    train.drop(['TRAFFIC', 'TRESSPASS', 'DRUGS', 'VEHICHULAR', 'ASSAULT', 'FAMILY', 'FINANCIAL', 'BURGLARY', 'POLICE OFFENSE', 'OBSTRUCTION', 'STALK'], axis=1, inplace=True)
+    print(train)
     column_name = []
     counter = 0
     for col in train.columns:
@@ -22,7 +25,7 @@ def preprocess_data():
 # for creating pipeline and model
 def create_pipeline(d):
     print("Creating pipeline")
-    nlp = spacy.load("en_core_web_md")  # using preexisting models
+    nlp = spacy.load("en_core_web_sm")  # using preexisting models
     config = {
         "threshold": 0.5,  # Cutoff to consider a prediction “positive”, relevant when printing accuracy results
         "model": DEFAULT_MULTI_TEXTCAT_MODEL,  # This model needs to be used for anything for more than 2 label
@@ -36,7 +39,7 @@ def create_pipeline(d):
     return textcat, nlp
 
 
-# used for converting the the dataframe to the format the model uses
+# used for converting the dataframe to the format the model uses
 def process_text(df, tags):
     texts = df.annotations
 
@@ -70,7 +73,7 @@ def training(textcat, train, nlp):
                     print(nlp.update([example], sgd=optimizer))
     # save the trained model so that it doesnt have to be executed for input.
     with nlp.use_params(optimizer.averages):
-        nlp.to_disk("C:/Users/Gkrishna/OneDrive - Endera Systems/Documents/Python Scripts/python_stuff_new")
+        nlp.to_disk("C:/Users/jcosta/Desktop/Endera-Sample/Trained_model")
     print("Saved model")
 
 

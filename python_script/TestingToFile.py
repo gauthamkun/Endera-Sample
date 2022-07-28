@@ -3,34 +3,36 @@ import pandas as pd
 
 
 def funs():
-    # Change this to the local path.
-    # Has the path to the model
-    nlp = spacy.load('C:/Users/Gkrishna/Downloads/Trained_model/Trained_model')
-    # Give the input file
-    df = pd.read_fwf("C:/Users/Gkrishna/Downloads/TestTxt.txt", header=None, names=['Annotations', 'MISCONDUCT'
-        , 'ALCOHOL', 'VEHICULAR', 'FAMILY', 'MINOR', 'SEX', 'KIDNAP', 'VIOLENCE', 'DRUGS', 'WEAPON', 'FINANCIAL'
-        , 'THEFT', 'FRAUD', 'STALK', 'TRESPASS', 'DRUG', 'BURGLARY', 'COURT OFFENSE', 'LICENSE', 'POLICE OFFENSE'
-        , 'HARASSMENT', 'ACCESSORY', 'ANIMAL', 'VEHICHULAR', 'TRESSPASS', 'TRAFFIC', 'OBSTRUCTION', 'ASSAULT'])
+    # Change text inside parenthesis to be the pathway of wherever you saved the model. (for most of you it will be the folder named python_stuff_new)
+    nlp = spacy.load('C:/Users/jcosta/Desktop/Endera-Sample/Trained_model')
+    # Give the input file (give pathway to the file you'd like to test)
+    df = pd.read_fwf('C:/Users/jcosta/Desktop/Endera-Sample/Datasets/Test.txt', header=None, names=['Annotations', 'MISCONDUCT',
+                                                                                                           'ALCOHOL', 'VEHICULAR',
+                                                                                                           'MINOR', 'SEX', 'KIDNAP', 'VIOLENCE',
+                                                                                                           'WEAPON',
+                                                                                                           'THEFT', 'FRAUD',
+                                                                                                           'TRESPASS',
+                                                                                                           'DRUG', 'COURT OFFENSE',
+                                                                                                           'LICENSE','HARASSMENT', 'ACCESSORY', 'ANIMAL'])
     data = df['Annotations']
     docs1 = list(nlp.pipe(data))
-    i = 0
+    i=0
     for doc in docs1:
-        # doc.cats gives the confidence value or prediction within range from 0 to 1.
-        # Sum of all the labels prediction will be 1
         article_categories = doc.cats
         for k, v in article_categories.items():
             df.loc[i, [k]] = v
 
-        i = i + 1
-    # Give the output path
+
+        i = i+1
+    # Give the output path (Give pathway of wherever you'd like to save the csv export. Be sure to rename your export every time or it will overwrite the old one)
     # File automatically gets created
-    df.to_csv('C:/Users/Gkrishna/OneDrive - Endera Systems/Desktop/python_script/Output4.csv', encoding='utf-8')
-    print("Data saved to csv file ")
+    df.to_csv('C:/Users/jcosta/Desktop/Endera-Sample/csv exports/Output1.csv', encoding='utf-8')
+    print("Data saved to csv file")
 
 
 def main():
     funs()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
